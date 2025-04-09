@@ -1,0 +1,7 @@
+services:
+  alg10042025:
+    build: .
+    container_name: trading-bot
+    volumes:
+      - ./alg1-457f6-firebase-adminsdk-fbsvc-3cd134d21c.json:/app/alg1-457f6-firebase-adminsdk-fbsvc-3cd134d21c.json
+    restart: always
